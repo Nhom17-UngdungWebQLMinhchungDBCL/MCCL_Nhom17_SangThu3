@@ -1,0 +1,46 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>
+		Phòng Đảm Bảo Chất Lượng
+	</title>
+</head>
+<body>
+
+<div class="container-fluid">
+	<div class="row">
+		<center><img alt="Trang Chủ" src="hinh/banner.jpg" align="center"></center>
+	</div>
+</div>
+
+<!-- panel -->
+<!-- ended -->
+<div class="row">
+  <div class="col-md-offset-1 col-md-10">
+  <div class="panel panel-default">
+  <div class="panel-body">
+    <p>Tên mục minh chứng</p>
+      <p><input type="text" class="form-control" placeholder="Tên Minh Chứng"></p>
+    <p>Loại minh chứng</p>
+      <p><input type="text" class="form-control" placeholder="Loại Minh Chứng"></p>
+    <p>Người nhập minh chứng</p>
+      <p><input type="text" class="form-control" placeholder="Người nhập minh chứng"></p>
+    <p>Người tạo mục minh chứng</p>
+      <p><input type="text" class="form-control" placeholder="Người tạo mục minh chứng"></p>
+    <button type="submit" class="btn btn-defaul "><a href="NQDMC.html">Submit</a></button>
+  </div>
+  </div>
+  
+  </div>
+</div>
+</body>
+</html> 
